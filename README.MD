@@ -5,12 +5,16 @@
 - reset game state by pressing the backspace key
 
 ## Build
-The build is dependant on SFML
-Install SFML on linux
+The build is requires 
+- SFML
+- gcc
+- make
+
+###Install SFML on linux
 ```
 sudo apt-get install libsfml-dev
 ```
-
+## Run
 Make the game with
 ```
 make game
