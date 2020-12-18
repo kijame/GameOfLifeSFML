@@ -5,7 +5,7 @@
 - reset game state by pressing the backspace key
 
 ## Build
-The build is requires 
+The build requires 
 - SFML
 - gcc
 - make
