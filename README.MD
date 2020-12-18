@@ -1,5 +1,5 @@
 ## Conways game of life
-![](images/spider.gif)
+![](images/conway.gif)
 - draw game state with your mouse
 - run an iteration of the Game of Life by pressing the spacebar
 - reset game state by pressing the backspace key
