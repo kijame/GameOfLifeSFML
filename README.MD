@@ -10,7 +10,7 @@ The build is requires
 - gcc
 - make
 
-###Install SFML on linux
+**Install SFML on linux**
 ```
 sudo apt-get install libsfml-dev
 ```
