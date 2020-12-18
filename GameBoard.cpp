@@ -23,7 +23,12 @@ GameBoard::GameBoard()
 void GameBoard::click(int x, int y)
 {
   //boardState[x / 10][y / 10].setFillColor(sf::Color(255, 0, 0));
-  alive.insert({x / 10, y / 10});
+  auto hold = alive.find({x / 10, y / 10});
+  if(hold != alive.end()){
+    alive.erase(hold);
+  }else{
+    alive.insert({x / 10, y / 10});
+  }
 }
 
 std::vector<std::vector<sf::RectangleShape>> *GameBoard::getState()
